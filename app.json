@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Bucket List",
+    "description": "A List of things a person would like to do",
+    "slug": "Bucket List",
+    "privacy": "public",
+    "sdkVersion": "19.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icons/app-icon.png",
+    "loading": {
+      "icon": "./assets/icons/loading-icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf", "mp4"]
+    },
+    "android": {
+      "package": "com.virtualobject.bl"
+    },
+    "ios": {
+      "bundleIdentifier": "com.virtualobject.bl",
+      "supportsTablet": true
+    }
+  }
+}
